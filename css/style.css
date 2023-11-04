@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.d{
+    color: red;
+}
+
+.imgs{
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.sel1,.sel2,.sel3,.sel4,.sel5,.sel6,.sel7{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px 0;
+}
+.sel6 div{
+    width: 30%;
+    height: 30px;
+}
+.sel6 div input{
+    width: 100%;
+    height: 100%;
+    font-size: 15px;
+    padding: 10px;
+    outline: none;
+    text-align: center;
+}
+.sel6 p{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    font-size: 14px;
+}
+
+select{
+    width: 30%;
+    height: 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    outline: none;
+}
+textarea{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    resize: none;
+    border-radius: 5px;
+}
+.open{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    padding-top: 15px;
+    border-top: 1px solid black;
+}
+.open fieldset{
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.open div{
+    width: 30%;
+
+}
+.open button{
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    height: 30px;
+}
+.open button:hover{
+    background-color: #c3934fc0;
+}
+/* .pos{
+    position: relative;
+    height: calc(100vh - 512px);
+    width: 100%;
+}
+.footer{
+    bottom: 0;
+    background-color: black;
+    position: absolute;
+    width: 100%;
+    
+}
+.footer p{
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.pos i{
+    
+} */

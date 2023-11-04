@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>عدد المعلمين</title>
+</head>
+<body>
+    <div class="imgs">
+        <img src="img/kk.jpg"/>
+    </div>
+
+
+    <div class="sel6">
+        <div>
+            <input type="text" id="input" placeholder="ادخل عدد الفصول" dir="rtl"/>
+        </div>
+        <p>عدد الحصص</p>
+        <p>عدد المعليمين لكل صف</p>
+        <p>عدد المعليمين لكل صف</p>
+    </div>
+
+
+    <div class="sel1 clas">
+        <select id="se" onchange="mousa()" dir="rtl">
+            <option value="0">الاول ثانوي</option>
+            <option value="2">1: التربية الاسلامية</option>
+            <option value="5">2: اللغة العربية</option>
+            <option value="5">3: اللغة الانجليزية</option>
+            <option value="2">4: تقنية المعلومات</option>
+            <option value="5">5: الرياضيات</option>
+            <option value="3">6: الفيزياء</option>
+            <option value="3">7: الكيمياء</option>
+            <option value="3">8: الاحياء</option>
+            <option value="2">9: التاريخ</option>
+            <option value="2">10: الجغرافيا</option>
+            <option value="1">11: علم الاجتماع</option>
+            <option value="1">12: النشاط الحر</option>
+            <option value="1">13: التربيه البدنية</option>
+        </select>
+        <textarea id="to" disabled></textarea>
+        <textarea id="text" disabled></textarea>
+        <textarea id="text1_" disabled></textarea>
+    </div>
+
+    <div class="sel2 clas">
+        <select id="sa" onchange="m2ousa()" dir="rtl">
+            <option value="0"> الثاني ثانوي علمي</option>
+            <option value="2">1: التربية الاسلامية</option>
+            <option value="5">2: اللغة العربية</option>
+            <option value="5">3: اللغة الانجليزية</option>
+            <option value="2">4: تقنية المعلومات</option>
+            <option value="5">5: الرياضيات</option>
+            <option value="2">6: الاحصاء</option>
+            <option value="5">7: الفيزياء</option>
+            <option value="4">8: الكيمياء</option>
+            <option value="4">9: الاحياء</option>
+            <option value="1">10: التربية البدنية</option>
+        </select>
+        <textarea id="to1" disabled></textarea>
+        <textarea id="text1" disabled></textarea>
+        <textarea id="text1_2_" disabled></textarea>
+    </div>
+
+    <div class="sel3 clas">
+        <select id="sd" onchange="m3ousa()" dir="rtl">
+            <option value="0">الثاني ثانوي ادبي</option>
+            <option value="2">1: التربية الاسلامية</option>
+            <option value="9">2: اللغة العربية</option>
+            <option value="6">3: اللغة الانجليزية</option>
+            <option value="2">4: تقنية المعلومات</option>
+            <option value="2">5: الاحصاء</option>
+            <option value="3">6: التاريخ</option>
+            <option value="3">7: الجغرافيا</option>
+            <option value="2">8: الفلسفة</option>
+            <option value="2">9: علم الاجتماع</option>
+            <option value="2">10: علم النفس</option>
+            <option value="2">11: التربية البدنية</option>
+        </select>
+        <textarea id="to2" disabled></textarea>
+        <textarea id="text2" disabled></textarea>
+        <textarea id="text2_3_" disabled></textarea>
+    </div>
+
+    <div class="sel4 clas">
+        <select id="sm" onchange="m5ousa()" dir="rtl">
+            <option value="0">الثالث ثانوي علمي</option>
+            <option value="2">1: التربية الاسلامية</option>
+            <option value="5">2: اللغة العربية</option>
+            <option value="5">3: اللغة الانجليزية</option>
+            <option value="2">4: تقنية المعلومات</option>
+            <option value="5">5: الرياضيات</option>
+            <option value="2">6: الاحصاء</option>
+            <option value="5">7: الفيزياء</option>
+            <option value="4">8: الكيمياء</option>
+            <option value="4">9:  الاحياء</option>
+            <option value="1">10: التربية البدنية</option>
+        </select>
+        <textarea id="to4" disabled></textarea>
+        <textarea id="text4" disabled></textarea>
+        <textarea id="text4_5_" disabled></textarea>
+    </div>
+
+    <div class="sel5 clas">
+        <select id="sr" onchange="m4ousa()" dir="rtl">
+            <option value="0">الثالث ثانوي ادبي</option>
+            <option value="2">1: التربية الاسلامية</option>
+            <option value="9">2: اللغة العربية</option>
+            <option value="6">3: اللغة الانجليزية</option>
+            <option value="2">4: تقنية المعلومات</option>
+            <option value="2">5: الاحصاء</option>
+            <option value="3">6: التاريخ</option>
+            <option value="3">7: الجغرافيا</option>
+            <option value="3">8: الفلسفة</option>
+            <option value="2">9: علم الاجتماع</option>
+            <option value="2">10: علم النفس</option>
+            <option value="2">11: التربية البدنية</option>
+        </select>
+        <textarea id="to3" disabled></textarea>
+        <textarea id="text3" disabled></textarea>
+        <textarea id="text3_4_" disabled></textarea>
+    </div>
+
+    <div class="open">
+        <div><button onclick="opeen()">المجموع</button></div>
+        <fieldset id="o4peen"></fieldset>
+        <fieldset id="o2peen"></fieldset>
+        <fieldset id="o3peen"></fieldset>
+    </div>
+
+    <!-- <div class="pos">
+        <div class="footer">
+            <p><ins>mousa saad</ins><i class="fab fa-facebook">facebook</i></p>
+        </div>
+    </div> -->
+
+    <script src="java script/min.js"></script>
+</body>
+</html>
